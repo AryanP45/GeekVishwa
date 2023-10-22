@@ -1,0 +1,33 @@
+.main:hover .s-handles{
+    display: flex;
+   
+}
+.s-handles{
+    transition-duration: 1s;
+    transition-property: all;
+    display: none;
+}
+.pw{
+    transition-duration: 1s;
+    transition-property: all;
+}
+.main:hover .pw{
+    margin-top: -80px;
+    position: absolute;
+}
+.main:hover .title{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main:hover .pos{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    transition-duration:1s ;
+    transition-property: all;
+}
+.main:hover{
+    background-color: rgb(211, 255, 167);
+    border-radius: 3rem;
+}
