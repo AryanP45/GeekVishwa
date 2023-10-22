@@ -1,16 +1,15 @@
 import TeamCards from '../../component/TeamCards.jsx';
 const Page = () => {
     return (
-    <div className="cont flex justify-center items-center flex-col pt-[4.5%]">
-
-        <div className="mb-4 text-3xl font-extrabold   md:text-5xl lg:text-6xl maintitle text-[35px] text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-            Our Team 
+        <div>
+            <div className='mt-[5.2%] text-[30px] text-white flex justify-center font-black'>
+                <span>Our Team</span>
+            </div>
+            <div className='mt-[3rem]'>
+                <TeamCards/>
+            </div>
         </div>
-        <TeamCards/>  
-       </div>
-
-      
     );
-  };
+};
 
-  export default Page;
+export default Page;
