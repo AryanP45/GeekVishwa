@@ -17,11 +17,19 @@
 }
 .main:hover .title{
     color: green;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main:hover .pos{
     color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+
+}
+.pos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+
 }
 .main{
     transition-duration:1s ;
