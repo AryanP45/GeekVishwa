@@ -65,6 +65,8 @@
     font-size: 1.2rem;
 
 }
+}
+
 .swiper-slide{
     display: flex !important;
     padding-top: 35px;
@@ -82,4 +84,4 @@
 
     /* You can add more rules for other elements as needed */
 }
-
+}
