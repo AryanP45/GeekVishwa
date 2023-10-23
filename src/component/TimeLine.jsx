@@ -16,7 +16,7 @@ import Typography from '@mui/material/Typography';
 const TimeLine = () => {
   return (
     <div className='mb-[3rem] '>
-    <div id='sponsors' className='flex justify-center align-center gfg-gradient text-[50px] mb-[3rem] sponsor-main-title font-black'>
+    <div id='' className='flex justify-center align-center gfg-gradient text-[50px] mb-[3rem] sponsor-main-title font-black'>
         <span>Hackathon Timeline</span>
       </div>
     <Timeline position="alternate" style={{color:"white"}}>
