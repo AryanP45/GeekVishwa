@@ -29,12 +29,7 @@ export default [
            
         ],
         tech: [
-            {
-                img: "/assets/Team/Screenshot_20230907-155055_Gallery - PATIL ARYAN.jpg",
-                title: "Aryan Patil",
-                pos: "Coding Head",
-                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
-            },
+           
             {
                 img: "/assets/Team/IMG20230714184124 - 711_KANHAIYA.jpg",
                 title: "Kanhaiya Sulay ",
@@ -57,12 +52,6 @@ export default [
         ],
         design: [
             {
-                img: "/assets/Team/IMG-20230906-WA0107 - BHAGYASHREE GANESH.jpg",
-                title: "Bhagyashree Tekade",
-                pos: "Design Head",
-                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
-            },
-            {
                 img: "/assets/Team/IMG_20230909_121357 - 545_VAISHNAVI PATIL.jpg",
                 title: "Vaishnavi Patil",
                 pos: "Associate Head",
@@ -77,6 +66,102 @@ export default [
             {
                 img: "/assets/1.png",
                 title: "Isha Varade ",
+                pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+           
+        ],
+        event: [
+            
+            {
+                img: "/assets/Team/20230829_180430 - 371_Ojas_Deshpande.jpg",
+                title: "Ojas Deshpande ",
+                pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+            {
+                img: "/assets/Team/IMG-20230910-WA0023 - C1_14_Kshitij Habbu.jpg",
+                title: "Kshitij Habbu" ,
+                pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+            {
+                img: "/assets/Team/Pournima Bhosale_1 - C_POURNIMA BHOSALE.jpg",
+                title: "Pournima Bhosale",
+                pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+           
+        ],
+        finance: [
+          
+            {
+                img: "/assets/Team/Atharva - 5_ATHARVA_ ATTERKAR.jpg",
+                title: "Atharva Atterkar ",
+                pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+            {
+                img: "/assets/Team/IMG_20230909_085142 - SY_A2_Rajat Patel.jpg",
+                title: "Rajat Patel " ,
+                pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+        ],
+
+        doc: [
+            {
+                img: "/assets/Team/Photo - DAMJI YASHRAJ.jpg",
+                title: "Yashraj Damji",
+                pos: "Documentation Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+            {
+                img: "/assets/1.png",
+                title: "Om Gole",
+                pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+        ],
+
+        content: [
+            {
+                img: "/assets/Team/SAVE_20230907_155154 - TY_B_ 34_Shivani Moghe.jpg",
+                title: "Shivani Moghe",
+                pos: "Content Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+            {
+                img: "/assets/Team/IMG-20230907-WA0013 - 576 YASH SAROLKAR.jpg",
+                title: "Yash Sarolkar ",
+                pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+            {
+                img: "/assets/Team/IMG_20230222_172423 - C2_43_HARSHAL PATIL.jpg",
+                title: "Harshal Patil" ,
+                pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+           
+        ],
+
+        publicity: [
+            {
+                img: "/assets/1.png",
+                title: "Smit Ramteke",
+                pos: "Publicity Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+            {
+                img: "/assets/Team/IMG20230608210500 - N_1434_SIDDHESH MUNDHE.jpg",
+                title: "Siddhesh Mundhe  ",
+                pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+            {
+                img: "/assets/Team/IMG_20230222_172423 - C2_43_HARSHAL PATIL.jpg",
+                title: "           Harsh Mane " ,
                 pos: "Associate Head",
                 text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
             },
