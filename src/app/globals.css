@@ -46,6 +46,7 @@ width: 100vw;
 }
 .swiper{
   z-index: 1;
+  width: 70% !important;
 }
 
 /* #vid{

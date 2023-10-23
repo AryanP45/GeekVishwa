@@ -2,6 +2,10 @@
     display: flex;
    
 }
+.main-th:hover .s-handles{
+    display: flex;
+   
+}
 .s-handles{
     transition-duration: 1s;
     transition-property: all;
@@ -17,11 +21,24 @@
 }
 .main:hover .title{
     color: green;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main:hover .pos{
     color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+
+}
+.pos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+
+}
+.t-head{
+    padding-left: 0px;
+    margin-left: 51rem;
+    padding-bottom: 1rem;
 }
 .main{
     transition-duration:1s ;
@@ -30,6 +47,27 @@
 .main:hover{
     background-color: rgb(211, 255, 167);
     border-radius: 3rem;
+
+}
+.main-th:hover{
+    background-color: rgb(211, 255, 167);
+    border-radius: 3rem;
+}
+
+.main-th:hover .pw{
+    margin-top: -80px;
+    position: absolute;
+}
+.main-th:hover .title{
+    color: green;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-th:hover .pos{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+
 }
 
 .swiper-slide{
@@ -38,4 +76,15 @@
 }
 .swiper{
     /* width: 50% !important; */
+    margin-top: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+    /* Styles to apply when the screen width is 768px or less */
+    .main-th {
+        margin-left: 4rem;
+    }
+
+    /* You can add more rules for other elements as needed */
+}
+
