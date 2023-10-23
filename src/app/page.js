@@ -8,6 +8,7 @@ import golddata from '../../public/assets/gold_data'
 import silverdata from '../../public/assets/silver_data'
 import Banner from '@/component/Banner'
 import TimeLine from '@/component/TimeLine'
+import Prize from '@/component/Prize'
 
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       <AboutGFG head={gwhead} desc={gwgdesc} />
       </div>
       <Banner/>
+      <Prize/>
       <TimeLine/>
       <div id='sponsors' className='flex justify-center align-center gfg-gradient text-[50px] mb-[3rem] sponsor-main-title font-black'>
         <span>Organizations who </span><span> &nbsp;helped us in our Lift Off</span>

@@ -65,6 +65,9 @@ width: 100vw;
   background-color: rgba(60, 61, 61, 0.5);
   /* background-color: rgb(166, 216, 184); */
 }
+.prize-inner{
+  background-color: rgba(60, 61, 61, 0.5);
+}
 .footer{
   color: white;
   background-color: rgba(29, 28, 28, 0.8);
@@ -163,6 +166,29 @@ width: 100vw;
 .copyright{
   background-color: rgba(29, 28, 28, 0.8);
 }
+
+
+
+
+
+
+
+
+
+/* FIRE WORKS */
+
+#fire-works{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+
+
 
 /* FOR BACKGROUND  */
 .circle{
