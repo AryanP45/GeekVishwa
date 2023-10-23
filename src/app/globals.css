@@ -136,6 +136,11 @@ width: 100vw;
   
 }
 
+
+.MuiTimeline-root{
+  margin-bottom: 3rem;
+}
+
 /* **********************Background*************** */
 :root { background-color: rgb(0, 0, 0); font-family: poppins; }
 
