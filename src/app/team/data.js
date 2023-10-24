@@ -126,16 +126,17 @@ export default [
         ],
 
         content: [
-            {
-                img: "/assets/Team/SAVE_20230907_155154 - TY_B_ 34_Shivani Moghe.jpg",
-                title: "Shivani Moghe",
-                pos: "Content Head",
-                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
-            },
+           
             {
                 img: "/assets/Team/IMG-20230907-WA0013 - 576 YASH SAROLKAR.jpg",
                 title: "Yash Sarolkar ",
                 pos: "Associate Head",
+                text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
+            },
+            {
+                img: "/assets/Team/SAVE_20230907_155154 - TY_B_ 34_Shivani Moghe.jpg",
+                title: "Shivani Moghe",
+                pos: "Content Head",
                 text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius molestias, quasi, quam omnis magnam impedit hic totam repudiandae reiciendis voluptate inventore nisi quidem.",
             },
             {

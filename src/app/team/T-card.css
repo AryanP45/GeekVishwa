@@ -49,6 +49,13 @@
     border-radius: 3rem;
 
 }
+.main-th{
+    transition-duration: 1s;
+    transition-property: all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main-th:hover{
     background-color: rgb(211, 255, 167);
     border-radius: 3rem;
@@ -78,13 +85,8 @@
     /* width: 50% !important; */
     margin-top: 3rem;
 }
-
-@media screen and (max-width: 768px) {
-    /* Styles to apply when the screen width is 768px or less */
-    .main-th {
-        margin-left: 4rem;
-    }
-
-    /* You can add more rules for other elements as needed */
+.swiper-wrapper{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
-

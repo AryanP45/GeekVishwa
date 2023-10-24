@@ -18,7 +18,7 @@ const Nav = () => {
     return (
         <div id='home' className=' nav-wrapper '>
             <div className='sticky top-0 h-full'>
-                <img src="../assets/logo/logo_480.svg" alt="logo" width="70px" className='h-[80%] pt-[8px] mx-[2rem] nav-logo' />
+                <img src="../assets/glow_logo.png" alt="logo" width="70px" className='h-[80%] pt-[8px] mx-[2rem] nav-logo' />
             </div>
         <div  className=' items-center nav-wrapper bg-[*]  flex justify-center  '>
             <div className='lg:text-[20px] text-white md:text-[16px]'>

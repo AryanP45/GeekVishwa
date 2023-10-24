@@ -33,7 +33,7 @@ const Hero = () => {
 
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("Learn, Practice, and Excel !")
+                                .typeString("Let geekvishwa be passport to your Geekdom!")
                                 .pauseFor(100)
                                 .deleteAll()
                                 .start()
