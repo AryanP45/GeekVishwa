@@ -7,16 +7,16 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import HowToRegIcon from '@mui/icons-material/HowToReg';
+import Typography from '@mui/material/Typography';
+// icons
 import HowToRegIcon from '@mui/icons-material/HowToReg';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import CancelIcon from '@mui/icons-material/Cancel';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import BackupIcon from '@mui/icons-material/Backup';
-
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-import Typography from '@mui/material/Typography';
+
+
 import { Button } from '@mui/material';
 const TimeLine = () => {
   return (
