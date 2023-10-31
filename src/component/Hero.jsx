@@ -2,6 +2,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import Typewriter from "typewriter-effect";
+import Countdown from './Countdown';
 
 const Hero = () => {
     useEffect(() => {
@@ -22,6 +23,7 @@ const Hero = () => {
             </div>
 
             <div className='flex flex-col items-center'>
+                <Countdown/>
                 {/* Removed for lagging on mobile devices */}
                 {/* <div className="App flex mb-[2rem] text-[34px] font-black">
                     <Typewriter
@@ -41,6 +43,7 @@ const Hero = () => {
                         }}
                     />
                 </div> */}
+                
                 <div className='mb-[3rem] flex-center justify-center '>
                     <span className='text-[60px] text-6xl font-black  register'>Register Now !!!</span>
                 </div>
