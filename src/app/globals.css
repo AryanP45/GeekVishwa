@@ -313,99 +313,74 @@ body {
   color: #396bd0;
 }
 
-/* countdown */
-.flip-card {
-  position: relative;
-  display: inline-flex;
-  flex-direction: column;
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
-  border-radius: .1em;
+/* counter */
+
+.expired-notice {
+  text-align: center;
+  padding: 2rem;
+  /* border: 1px solid #ebebeb; */
+  border-radius: 0.25rem;
+  margin: 0.5rem;
 }
 
-.top,
-.bottom,
-.flip-card .top-flip,
-.flip-card .bottom-flip {
-  height: .75em;
-  line-height: 1;
-  padding: .25em;
-  overflow: hidden;
+.expired-notice > span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
 }
 
-.top,
-.flip-card .top-flip {
-  background-color: #f7f7f7;
-  border-top-right-radius: .1em;
-  border-top-left-radius: .1em;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.expired-notice > p {
+  font-size: 1.5rem;
 }
 
-.bottom,
-.flip-card .bottom-flip {
-  background-color: white;
+.show-counter {
+  padding: 0.5rem;
+}
+
+.show-counter .countdown-link {
   display: flex;
-  align-items: flex-end;
-  border-bottom-right-radius: .1em;
-  border-bottom-left-radius: .1em;
-}
-
-.flip-card .top-flip {
-  position: absolute;
-  width: 100%;
-  animation: flip-top 250ms ease-in;
-  transform-origin: bottom;
-}
-
-@keyframes flip-top {
-  100% {
-    transform: rotateX(90deg);
-  }
-}
-
-.flip-card .bottom-flip {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  animation: flip-bottom 250ms ease-out 250ms;
-  transform-origin: top;
-  transform: rotateX(90deg);
-}
-
-@keyframes flip-bottom {
-  100% {
-    transform: rotateX(0deg);
-  }
-}
-
-.container {
-  display: flex;
-  gap: .5em;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+  /* border: 1px solid #ebebeb; */
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: #ffffff;
 }
 
-.container-segment {
+.show-counter .countdown {
+  line-height: 1.25rem;
+  padding: 0 0.75rem 0 0.75rem;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  gap: .1em;
-  align-items: center;
 }
 
-.segment {
-  display: flex;
-  gap: .1em;
+.show-counter .countdown.danger {
+  color: #ff0000;
 }
 
-.segment-title {
+.show-counter .countdown > p {
+  margin: 0;
+}
+
+.show-counter .countdown > span {
+  text-transform: uppercase;
   font-size: 1rem;
+  line-height: 1rem;
+  padding-top: 1rem;
+
 }
+
 
 
 /* for responsiveness */
 @media only screen and (max-width: 1600px) {
-   /* .prize-logo{
-     width: 70%; 
-    margin-bottom: 4rem; 
-  }  */
+
 }
 
 @media only screen and (max-width: 1450px) {
