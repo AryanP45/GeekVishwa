@@ -13,7 +13,7 @@ const Banner = () => {
   return (
     <div className='flex justify-center mb-[5rem]'>
 
-      <Swiper
+      {/* <Swiper
         pagination={true}
         modules={[Pagination, Autoplay]}
         autoplay={true}
@@ -40,7 +40,7 @@ const Banner = () => {
             <img src='https://geekvishwa.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F097d4c46f3e8461f91dd36e99cffa8f4%2Fassets%2Fcover%2F965.png&w=1440&q=100'></img>
           </div>
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
 
       {/* <img src='https://geekvishwa.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F097d4c46f3e8461f91dd36e99cffa8f4%2Fassets%2Fcover%2F965.png&w=1440&q=100'></img> */}
     </div>
